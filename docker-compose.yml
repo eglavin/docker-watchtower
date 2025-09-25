@@ -10,5 +10,4 @@ services:
     environment:
       - WATCHTOWER_CLEANUP=true
       - WATCHTOWER_INCLUDE_RESTARTING=true
-      - WATCHTOWER_ROLLING_RESTART=true
       - WATCHTOWER_SCHEDULE="0 4 * * 5" # Every Saturday at 4 AM
